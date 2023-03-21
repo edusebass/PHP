@@ -17,3 +17,8 @@ The start of in-line PHP is denoted with <?php and the end is denoted with ?>.
 /*
 So when the code above is executed, it outputs the text into the HTML file and the front-end will receive the following HTML document:
 */
+
+//Generally, PHP ignores whitespace (tabs, spaces, new lines), so this code yields the same result as the previous example:
+
+<?php
+echo     "Hello, World!";
